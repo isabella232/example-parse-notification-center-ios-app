@@ -11,7 +11,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-    [Parse setApplicationId:@"ZgdyVtUarlOiQmzlHBESjKZbFSe0EynmObTHPSo3" clientKey:@"BikTnBQC5knOgUFIEqbaGrcIVgvXfTgWEkG2gm58"];
+    [Parse setApplicationId:@"APPLICATION-ID" clientKey:@"CLIENT-ID"];
 
     // Override point for customization after application launch.
     [application registerForRemoteNotificationTypes:UIRemoteNotificationTypeAlert|UIRemoteNotificationTypeBadge|UIRemoteNotificationTypeSound];
