@@ -326,6 +326,10 @@
 		D4F419EF14D90FFB00D02120 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					armv7s,
+					armv7,
+				);
 				CODE_SIGN_IDENTITY = "iPhone Developer: Tamás Szűcs (D5H5C9SHA8)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tamás Szűcs (D5H5C9SHA8)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -336,6 +340,7 @@
 				GCC_PREFIX_HEADER = "PushNotificationTutorial/PushNotificationTutorial-Prefix.pch";
 				INFOPLIST_FILE = "PushNotificationTutorial/PushNotificationTutorial-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "6148847C-4B17-406C-B9A6-943A9E5F2FCB";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6148847C-4B17-406C-B9A6-943A9E5F2FCB";
@@ -347,6 +352,10 @@
 		D4F419F014D90FFB00D02120 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					armv7s,
+					armv7,
+				);
 				CODE_SIGN_IDENTITY = "iPhone Developer: Tamás Szűcs (D5H5C9SHA8)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tamás Szűcs (D5H5C9SHA8)";
 				FRAMEWORK_SEARCH_PATHS = (
